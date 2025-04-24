@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Climbing Adventures</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .header, .main-section, .footer {
+      padding: 20px;
+      background-color: #fff;
+      margin: 20px auto;
+      border-radius: 8px;
+      max-width: 900px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #444;
+    }
+
+    #photo-gallery img {
+      width: 250px;
+      border-radius: 8px;
+      margin: 10px;
+    }
+
+    iframe {
+      border: none;
+      margin-top: 15px;
+    }
+
+    a.anchor-link {
+      color: #007acc;
+    }
+
+    a.anchor-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation to Professional Pages -->
+  <nav>
+    <a href="index.html">Resume</a>
+    <a href="webapp.html">Webapp</a>
+  </nav>
+
+  <!-- Header Section -->
+  <div class="header" id="top">
+    <h1>Welcome to My Rock Climbing World</h1>
+    <p><a class="anchor-link" href="#video">Jump to Climbing Tutorial Video</a></p>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="main-section">
+    <h2>Why I Love Rock Climbing</h2>
+    <p>Climbing is a full-body workout and a mental challenge that takes me to beautiful places.</p>
+
+    <!-- Ordered + Unordered List -->
+    <ol>
+      <li>Types of Climbing
+        <ul>
+          <li>Indoor Bouldering</li>
+          <li>Sport Climbing</li>
+          <li>Trad Climbing</li>
+        </ul>
+      </li>
+      <li>My Favorite Gear
+        <ul>
+          <li>La Sportiva Shoes</li>
+          <li>Black Diamond Harness</li>
+          <li>Chalk Bag</li>
+        </ul>
+      </li>
+    </ol>
+
+    <!-- Image Gallery -->
+    <div id="photo-gallery">
+      <h2>Climbing Adventures</h2>
+      <img src="assets/img/climb1.jpg" alt="Climbing outdoors in Aruba">
+      <img src="assets/img/climb2.jpg" alt="Sunset climb photo">
+      <img src="assets/img/climb3.jpg" alt="Sunset climb photo">
+    </div>
+
+    <!-- YouTube Video with Anchor -->
+    <div id="video">
+      <h2>Climbing Tutorial Video</h2>
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/Hlw9GVBs890?start=125"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <p><a class="anchor-link" href="#top">↑ Back to top</a></p>
+    </div>
+
+    <!-- Tableau Embedded Visualization -->
+    <div class='tableauPlaceholder' id='viz1745450266130' style='position: relative'>
+        <noscript>
+          <a href='#'>
+            <img alt=' ' src='https://public.tableau.com/static/images/Ro/RockClimbingProject_16372805208290/MainDashboard/1_rss.png' style='border: none' />
+          </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='RockClimbingProject_16372805208290/MainDashboard' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https://public.tableau.com/static/images/Ro/RockClimbingProject_16372805208290/MainDashboard/1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en-US' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1745450266130');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+          vizElement.style.width = '1520px';
+          vizElement.style.height = '1427px';
+        } else if (divElement.offsetWidth > 500) {
+          vizElement.style.width = '1520px';
+          vizElement.style.height = '1427px';
+        } else {
+          vizElement.style.width = '100%';
+          vizElement.style.height = '2727px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      
